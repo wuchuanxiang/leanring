@@ -5,5 +5,6 @@ zhujin write it
 wcx w2
 zj w2
 
+zj w3
 wcx w3
 111111111111111111111111111
