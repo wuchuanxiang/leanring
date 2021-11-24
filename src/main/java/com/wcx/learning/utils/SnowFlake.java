@@ -17,7 +17,7 @@ public class SnowFlake {
     /**
      * 起始的时间戳
      */
-    private final static long START_STMP = 897926400L;//1998年6月16日华联商厦上市
+    private final static long START_STMP = 897926400L;
 //    private final static long START_STMP = 1546272000L;//2019年1月1日
 
     /**

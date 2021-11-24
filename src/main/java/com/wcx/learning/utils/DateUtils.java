@@ -14,9 +14,6 @@ import java.util.*;
 
 /**
  * 日期工具类, 继承time.DateUtils类
- *
- * @author ThinkGem
- * @version 2014-4-15
  */
 public class DateUtils extends org.apache.commons.lang3.time.DateUtils {
 

@@ -10,13 +10,10 @@ import javax.annotation.PostConstruct;
 @Component
 public class SnowFlakeUtils {
     Logger logger = LoggerFactory.getLogger(SnowFlakeUtils.class);
-//    @Autowired
-//    private BaseCatService baseCatService;
     /**
      * 起始的时间戳
      */
-    private final static long START_STMP = 897926400L;//1998年6月16日华联商厦上市
-//    private final static long START_STMP = 1546272000L;//2019年1月1日
+    private final static long START_STMP = 897926400L;
 
     /**
      * 每一部分占用的位数
