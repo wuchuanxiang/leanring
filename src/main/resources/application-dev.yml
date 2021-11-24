@@ -1,0 +1,20 @@
+server:
+  port: 9999
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    jedis:
+      pool:
+        min-idle: 8
+        max-idle: 500
+        max-active: 2000
+        max-wait: 10000
+    timeout: 50000
+icbc:
+  pay:
+    shopAppId: wx09bd28b0bab5d1c5
+    url: http://47.96.86.67:678/ICBC/ConsumePurchaseShowPayNotify
+    appKey: 587533f9f50f416ba85dc6330ff69068
+    appSecret: 266B4P82HNRJ2H8RZ006T28L0682TTPT2H2R8BNNRXDPD66PF
